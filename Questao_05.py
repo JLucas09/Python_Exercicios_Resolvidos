@@ -18,7 +18,7 @@ elif operacao == '/':
     else:
         Resultado = num1 / num2
 
-else :
+else:
     print("Operacao invalida!")
     Resultado = "Invalida"
 
