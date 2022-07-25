@@ -1,5 +1,5 @@
 lista = []
-num = int(input("Informe o número limite para veifircação dos números primos:"))
+num = int(input("Informe o limite para verificação dos números primos:"))
 
 for cc in range(1, num + 1):
     cont = 0
