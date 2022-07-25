@@ -1,11 +1,11 @@
 cont = 0
-num = int(input("\nDigite o número de pessoas:"))
+N = int(input("\nDigite o número de pessoas:"))
 
-for i in range(num):
+for i in range(N):
     idade = int(input(f"Digite a idade da {i+1} pessoa:"))
     cont += idade
-media = cont / num
-print("Media de idade:",media)
+media = cont / N
+print("Media de idade:", media)
 
 if media <= 25:
     print("Media Jovem")
