@@ -15,4 +15,4 @@ print()
 print(".____ Meses acima da média ____.")
 for i, mes in enumerate(weather):
     if mes > media:
-        print(f"mes: {meses[i]} Temperatura: {mes}")
+        print(f"mes {meses[i]} temperatura: {mes}")
