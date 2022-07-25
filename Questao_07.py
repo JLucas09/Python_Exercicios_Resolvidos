@@ -11,4 +11,4 @@ while A <= B:
 
 print("Populacao atual A:", A)
 print("Populacao atual B:", B)
-print("Necessario", anos, "anos para a populacao A passar a B")
+print(f"Necessario {anos} anos para a populacao A passar a B")
